@@ -1,1 +1,30 @@
-/* your code */
+*{
+margin:0;
+padding:0;
+}
+
+table{
+ border-radius: 12px;
+border-spacing: 0;
+}
+
+thead{
+text-align:center;
+	background-color:#215A8E;
+	color:white
+}
+tbody{
+text-align:center;
+}
+tbody tr:nth-child(even){
+background-color:#DDDDDD
+}
+
+td,th{
+padding:12px
+}
+
+
+td:first-child,th:first-child{
+text-align:left;
+}
